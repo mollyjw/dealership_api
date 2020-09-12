@@ -1,4 +1,5 @@
 class UserService
+
     def self.login(email, password)
         return false unless user = User.find_by(email: email).try(:authenticate, password)
         user.generate_token!
@@ -25,4 +26,5 @@ class UserService
       def self.logout(user)
         user.update(token: nil)
       end
+
 end

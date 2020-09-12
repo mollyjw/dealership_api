@@ -6,10 +6,10 @@ Rails.application.routes.draw do
       namespace :users do
         post :login
         post :create
-        get :me
+        get :profile
         delete :logout
       end
-      namespace :cars do
+      namespace :vehicles do
         get :index
         get :show
         post :create
