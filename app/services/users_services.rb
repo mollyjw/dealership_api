@@ -1,4 +1,4 @@
-class UsersService
+class UsersServices
 
     def self.login(email, password)
         return false unless user = User.find_by(email: email).try(:authenticate, password)
