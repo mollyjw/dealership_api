@@ -8,7 +8,7 @@ class Api::V1::VehiclesController < ApplicationController
       render json: @vehicles
     end
   
-    #GET /vehicle/1
+    #GET /vehicles/1
     def show
       @vehicles = Vehicle.where(vehicle_id: params[:id])
       render json: { vehicle: @vehicle, reviews: @reviews }
