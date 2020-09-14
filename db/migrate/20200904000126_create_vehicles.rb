@@ -1,7 +1,7 @@
 class CreateVehicles < ActiveRecord::Migration[6.0]
   def change
     create_table :vehicles do |t|
-      t.string :bodytype
+      t.string :bodystyle
       t.integer :year
       t.string :make
       t.string :model
