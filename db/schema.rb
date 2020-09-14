@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 2020_09_04_000126) do
   end
 
   create_table "vehicles", force: :cascade do |t|
-    t.string "bodytype"
+    t.string "bodystyle"
     t.integer "year"
     t.string "make"
     t.string "model"
