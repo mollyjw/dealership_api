@@ -1,6 +1,6 @@
 class Api::V1::VehiclesController < ApplicationController
     before_action :set_vehicle, only: [:show, :update, :destroy]
-    skip_before_action :authenticate, only: [:index, :show]
+    skip_before_action :authenticate, only: [:index, :show, :create]
   
     # GET /vehicles
     def index
