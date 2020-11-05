@@ -27,5 +27,6 @@ test:
 production:
   <<: *default
   database: dealership_api_production
+  adapter: postgresl
   username: postgres
   password: pass
