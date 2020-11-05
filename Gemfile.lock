@@ -87,14 +87,14 @@ GEM
     minitest (5.14.2)
     msgpack (1.3.3)
     msgpack (1.3.3-x64-mingw32)
-    nio4r (2.5.2)
+    nio4r (2.5.4)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     nokogiri (1.10.10-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     pg (1.2.3)
     pg (1.2.3-x64-mingw32)
-    puma (4.3.5)
+    puma (5.0.4)
       nio4r (~> 2.0)
     rack (2.2.3)
     rack-cors (1.1.1)
@@ -168,7 +168,7 @@ DEPENDENCIES
   byebug
   listen
   pg (>= 0.18, < 2.0)
-  puma (~> 4.1)
+  puma (~> 5.0)
   rack-cors
   rails (~> 6.0.3, >= 6.0.3.2)
   rails_12factor
